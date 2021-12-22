@@ -1,0 +1,110 @@
+h1 {
+  color: rgb(3, 3, 250);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: rgb(252, 252, 252);
+}
+
+.total {
+  background-image: url("../back.jpg");
+  background-size: 100vw 100vh;
+  height: 100vh;
+}
+
+.sideinfo {
+  display: inline-block;
+  width: 500px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  background-color: rgb(46, 46, 46);
+}
+
+.marginDiv {
+  padding-top: 50px;
+}
+
+.content {
+  padding-bottom: 30px;
+}
+
+.form {
+  margin: 50px;
+  flex-basis: 700px;
+}
+
+.form .title {
+  color: #fff;
+}
+
+.socialLogin {
+  margin: 4px;
+}
+
+.fields {
+  margin-top: 50px;
+}
+
+.fields .textField {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 50px;
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  outline: none;
+  display: block;
+  padding-left: 10px;
+  background: rgb(26, 26, 26);
+  line-height: 16px;
+  font-size: 17px;
+  color: #fff;
+}
+
+.progress {
+  display: block;
+  margin-top: 10px;
+}
+
+.form .loginButton {
+  margin-top: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.form .register {
+  margin-top: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  color: #fff;
+}
+
+.form .registerUrl {
+  font-weight: "bold";
+  display: inline-block;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: none;
+}
+
+.form .registerUrl:hover {
+  font-weight: "bold";
+  display: inline-block;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: none;
+}
+
+.fieldError {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.submitError {
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
