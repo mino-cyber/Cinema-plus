@@ -1,0 +1,81 @@
+.dialogCInput {
+  margin-top: 20px;
+  width: 350px;
+  background-color: rgba(46, 46, 46, 0.8);
+  border: 1px solid #dddfe2;
+  max-width: 100%;
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+}
+
+.dialogCInput > input {
+  border: none;
+  background-color: rgb(46, 46, 46);
+  font-size: 1rem;
+  color: #fff;
+  outline: none;
+  width: 90%;
+  display: inline-block;
+}
+
+.dialogCInputCheck > input {
+  display: inline-block;
+  margin: 20px;
+}
+
+.userPage {
+  height: 100vh;
+  background-image: url("../../back.jpg");
+  background-size: 100vw 100vh;
+  height: 100vh;
+}
+
+.updateProfile {
+  width: 400px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  background-color: rgba(46, 46, 46, 0.8);
+  padding: 25px;
+}
+
+.updateProfile .loginButton {
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff;
+  background-color: royalblue;
+  width: 45%;
+  border-radius: 10px;
+}
+
+.updateProfile > img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.profileInfo {
+  width: 400px;
+  border: 1px solid gray;
+  color: #fff;
+  font: 1em sans-serif;
+  border-radius: 8px;
+  background-color: rgba(46, 46, 46, 0.8);
+  padding: 25px;
+}
+
+.profileInfo > img {
+  padding-bottom: 10px;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.profileInfo .loginButton {
+  margin-top: 20px;
+  width: 100%;
+  color: #fff;
+  background-color: royalblue;
+  width: 200px;
+  border-radius: 10px;
+}

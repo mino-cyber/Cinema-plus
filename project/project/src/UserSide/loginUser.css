@@ -1,0 +1,145 @@
+h1 {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  -webkit-text-stroke: 1px #000;
+}
+
+p {
+  color: rgb(252, 252, 252);
+  margin-top: 10px;
+}
+
+.a {
+  background-image: url("../back3.jpeg");
+  background-size: 100vw 100vh;
+  height: 100vh;
+}
+
+.b {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+}
+
+.total {
+  background-image: url("../back3.jpeg");
+  background-size: 50% 50%;
+  min-width: 100%;
+  scroll-behavior: auto;
+  height: 650px;
+  min-height: 100%;
+  scroll-behavior: auto;
+  position: fixed;
+}
+
+.total1 {
+  background-color: rgba(0, 0, 0, 0.7);
+  background-size: 100% 100%;
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  height: auto;
+}
+
+.total2 {
+  scroll-behavior: auto;
+  overflow-y: auto;
+  height: 100vh;
+  white-space: nowrap;
+}
+
+.logo {
+  width: 15%;
+}
+
+.content {
+  padding-bottom: 30px;
+  padding-left: 30px;
+  display: block;
+}
+
+.titleLogin {
+  color: #fff;
+  padding: 20px;
+  font-size: 40px;
+}
+
+.socialLogin {
+  margin: 4px;
+}
+
+.fields {
+  margin-top: 50px;
+  width: 450px;
+  height: auto;
+  border: 1px solid gray;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: block;
+}
+
+.fields .textField {
+  margin-bottom: 10px;
+  height: 50px;
+  width: 80%;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  outline: none;
+  display: block;
+  padding-left: 10px;
+  background: rgb(0, 0, 0);
+  line-height: 16px;
+  font-size: 17px;
+  color: #fff;
+}
+
+.form .loginButton {
+  margin-top: 20px;
+  width: 50%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.form .loginButton:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border: #fff solid 1px;
+  color: #fff;
+}
+
+.form .registerUrl {
+  padding: 10px;
+  font-weight: "bold";
+  display: inline-block;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 20px;
+  box-shadow: none;
+}
+
+.form .registerUrl:hover {
+  font-weight: "bold";
+  display: inline-block;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: none;
+  cursor: pointer;
+  text-decoration-line: underline;
+}
+
+.buttonCreate {
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.buttonCreate:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.buttonCreate > div {
+  padding: 10px;
+  cursor: pointer;
+}

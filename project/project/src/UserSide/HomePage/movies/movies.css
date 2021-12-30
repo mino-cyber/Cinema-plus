@@ -1,0 +1,62 @@
+.viewCinema {
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.searchCinema {
+  margin-top: 80px;
+  margin-left: 50px;
+  background-color: rgb(46, 46, 46);
+  border: 1px solid #dddfe2;
+  max-width: 27%;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  width: 90%;
+}
+
+.searchCinema > input {
+  border: none;
+  background-color: rgb(46, 46, 46);
+  font-size: 1rem;
+  color: #fff;
+  outline: none;
+  width: 90%;
+  display: inline-block;
+}
+
+.iconSearch {
+  color: #fff;
+  display: inline-block;
+}
+
+.row {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin-right: 5%;
+}
+
+.dialogCInput {
+  margin-top: 20px;
+  background-color: rgb(46, 46, 46);
+  border: 1px solid #dddfe2;
+  max-width: 100%;
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+}
+
+.dialogCInput > input {
+  border: none;
+  background-color: rgb(46, 46, 46);
+  font-size: 1rem;
+  color: #fff;
+  outline: none;
+  width: 90%;
+  display: inline-block;
+}
+
+.dialogCInputCheck > input {
+  display: inline-block;
+  margin: 20px;
+}
